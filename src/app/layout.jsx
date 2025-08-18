@@ -1,17 +1,13 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
-
 export const metadata = {
-  title: 'SAPPATH Cafe',
-  description: 'Welcome to SAPPATH Cafe',
-}
+  title: "SAPPATH CAFE",
+  description: "フェアトレードのラオスコーヒーと、やさしいおやつのカフェ。",
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="ja">
-      <body className={inter.className}>{children}</body>
+      <head />
+      <body className="min-h-dvh">{children}</body>
     </html>
-  )
+  );
 }
