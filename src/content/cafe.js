@@ -15,13 +15,13 @@ export const links = {
 export const copy = {
   name: "EFLAO CAFE",
   heroTitle: "ラオスの香りを日常に",
-  heroLead: "フェアトレードのラオスコーヒーと、やさしいおやつのカフェ。",
+  heroLead: "フェアトレードのラオスコーヒーと、学生が集うカフェ。",
   hours: [
     { label: "平日", value: "11:00–19:00（L.O. 18:30）" },
     { label: "土日祝", value: "10:00–18:00（L.O. 17:30）" },
     { label: "定休日", value: "水曜" },
   ],
-  address: "東京都◯◯区◯◯ 1-2-3",
+  address: "東京都文京区白山",
   tel: "03-1234-5678",
   introBullets: [
     "ボラベン高原のアラビカを中心に、香りを大切に抽出",
