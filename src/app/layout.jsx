@@ -3,7 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 
 export const metadata = {
-  title: "EFLAO CAFE",
+  title: "SAPPATH CAFE",
   description:
     "ラオスの香りを日常に。ダイレクトトレードのラオスコーヒーと、学生が集うカフェ。",
   icons: { icon: "/favicon.ico" },
