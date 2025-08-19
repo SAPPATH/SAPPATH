@@ -5,15 +5,15 @@ export const brand = {
 };
 
 export const links = {
-  instagram: "https://instagram.com/eflao_cafe",
-  x: "https://x.com/eflao_cafe",
+  instagram: "https://instagram.com/smile_f_laos",
+  x: "https://x.com/smile_f_laos",
   maps: "https://maps.google.com/?q=EFLAO+Cafe",
   reserve: "#reserve",
   email: "mailto:cafe@eflao.example",
 };
 
 export const copy = {
-  name: "EFLAO CAFE",
+  name: "SAPPATH CAFE",
   heroTitle: "ラオスの香りを日常に",
   heroLead: "フェアトレードのラオスコーヒーと、学生が集うカフェ。",
   hours: [
