@@ -1,1 +1,1 @@
-import { copy, links, gallery } from "../data/cafe";
+import { copy, links, gallery } from "/data/cafe";
