@@ -1,33 +1,36 @@
-export const metadata = {
-  title: "SAPPATH CAFE",
-  description: "ラオスの香りを日常に。フェアトレードコーヒーを、手軽におしゃれに。",
-  openGraph: { title: "SAPPATH", type: "website" }
+// src/content/cafe.js
+export const brand = {
+  primary: "#CE1126",
+  secondary: "#2E7D32",
 };
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="ja">
-      <body>
-        <header className="fixed inset-x-0 top-0 z-50 bg-white/60 backdrop-blur border-b">
-          <div className="container flex h-14 items-center justify-between">
-            <div className="font-semibold tracking-wide">EFLAO CAFE</div>
-            <nav className="hidden md:flex gap-6 text-sm">
-              <a href="#about">About</a>
-              <a href="#menu">Menu</a>
-              <a href="#gallery">Gallery</a>
-              <a href="#access">Access</a>
-              <a href="#reserve" className="rounded-full bg-coffee-900 text-white px-3 py-1">Reserve</a>
-            </nav>
-          </div>
-        </header>
-        <main className="pt-14">{children}</main>
-        <footer className="border-t mt-24">
-          <div className="container py-10 text-sm flex flex-col md:flex-row gap-3 md:items-center justify-between">
-            <p>© {new Date().getFullYear()} EFLAO CAFE</p>
-            <p className="text-coffee-500">Fair trade coffee & sweets / Tokyo</p>
-          </div>
-        </footer>
-      </body>
-    </html>
-  );
-}
+export const links = {
+  instagram: "https://instagram.com/smile_f_laos",
+  x: "https://x.com/smile_f_laos",
+  maps: "https://maps.google.com/?q=EFLAO+Cafe",
+  reserve: "#reserve",
+  email: "mailto:cafe@eflao.example",
+};
+
+export const copy = {
+  name: "SAPPATH CAFE",
+  heroTitle: "ラオスの香りを日常に",
+  heroLead: "フェアトレードのラオスコーヒーと、学生が集うカフェ。",
+  hours: [
+    { label: "平日", value: "11:00–19:00（L.O. 18:30）" },
+    { label: "土日祝", value: "10:00–18:00（L.O. 17:30）" },
+    { label: "定休日", value: "水曜" },
+  ],
+  address: "東京都文京区白山",
+  tel: "03-1234-5678",
+  introBullets: [
+    "ボラベン高原のアラビカを中心に、香りを大切に抽出",
+    "学生メンバーと作る季節のスイーツ",
+    "売上の一部を教育支援へ（トレーサビリティ公開）",
+  ],
+  menuHighlights: [
+    { name: "ボラベン ハンドドリップ", price: "¥600", desc: "甘い香り、やわらかな酸味。" },
+    { name: "ラテ（自家製シロップ）", price: "¥650", desc: "砂糖控えめ、深いコク。" },
+    { name: "レモングラスティー", price: "¥550", desc: "爽やかな香りでリフレッシュ。" },
+  ],
+};
